@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Planterra - Guias y Conocimientos Sobre Plantas</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CSS -->
     <link rel="stylesheet" href="css/estilo.css">
+    <!-- Fuente -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rubik:wght@300&display=swap"
@@ -14,21 +19,62 @@
 </head>
 
 <body>
-    <header>
-        <h1>Bienvenidos a Planterra</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="html/compra.html">Compra</a></li>
-                <li><a href="html/guias.html">Guias</a></li>
-                <li><a href="html/nosotros.html">Nosotros</a></li>
-                <li><a href="html/contacto.html">Contacto</a></li>
-            </ul>
+    <!-- Encabezado -->
+    <header class="container-fluid header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Planterra</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                        <a class="nav-link" href="html/compra.html">Guias</a>
+                        <a class="nav-link" href="html/contacto.html">Compra</a>
+                        <a class="nav-link" href="html/contacto.html">Nosotros</a>
+                        <a class="nav-link" href="html/contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
         </nav>
 
-        <img class="headerLogo" src="img/logoPlanterra.png" alt="Logo de planterra">
     </header>
-    <main>
+    <!-- Carrousel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="img/carruselCompra.jpg" class="d-block w-100" alt="Fotos de Planterra">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/cactusInjerto.jpg" class="d-block w-100" alt="Fotos de Planterra">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/prototipoCarrusel.jpg" class="d-block w-100" alt="Fotos de Planterra">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Contenido -->
+      <main class="w-50 mx-auto text-center">
+        <h1 class="p-3 fs-2 border-top border-3">El Mejor lugar para tus plantas</h1>
+      </main>
+      
+    <!-- <main>
         <div>
             <img class="carrusel" src="img/prototipoCarrusel.jpg" alt="Plantas para el hogar">
         </div>
@@ -89,7 +135,10 @@
     <footer>
         <img class="footerLogo" src="img/logoPlanterra.png" alt="Logo de planterra">
         <h3>Creado por Ariel Enriquez de Coderhouse</h3>
-    </footer>
+    </footer> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
