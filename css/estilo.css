@@ -21,7 +21,18 @@ nav{
 h1{
     font-weight: 600;
 }
+p{
+    text-align: center;
+    margin-left: 1rem;
+}
 /* Imagenes de las descripciones */
 .row{
     margin-bottom: 10rem;
+}
+.imgInicio{
+    
+    margin-bottom: 2rem;
+    max-width: 20rem;
+    max-height: 20rem;
+    border-radius: 5px;
 }
