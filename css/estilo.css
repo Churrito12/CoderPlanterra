@@ -1,12 +1,27 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
 header {
     background-color: #256d1b;
 }
 nav{
-
     border-style: solid;
     border-width: 2px;
 }
 /* Carrousel */
 .carousel-inner{
+    max-height: 40rem;
+}
+/* Fotos de clientes bajo el carrousel */
+.fotosClientes{
+    max-width: 30rem;
     max-height: 30rem;
+}
+h1{
+    font-weight: 600;
+}
+/* Imagenes de las descripciones */
+.row{
+    margin-bottom: 10rem;
 }
