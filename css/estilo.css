@@ -70,21 +70,14 @@ p {
   }
 }
 
+main {
+  overflow: hidden;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-family: "Rubik", sans-serif;
   background-color: #dad7cd;
-}
-@media screen and (max-width: 576px) {
-  body {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .contenedor {
-    flex-direction: column;
-  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

@@ -3,20 +3,16 @@
 @import "inicio";
 @import "mediasqueries";
 
+
+
+main{
+    overflow: hidden;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Rubik', sans-serif;
     background-color: #dad7cd;
-    @include movil{
-        flex-direction: column;
-        
-}
-}
-
-.contenedor{
-    @include movil{
-        flex-direction: column;
     
 }
 
-}
