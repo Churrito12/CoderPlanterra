@@ -1,0 +1,15 @@
+footer {
+    background-color: #588157;
+    
+}
+/* Iconos del footer */
+.contenedor-iconoFooter svg{
+    width: 2rem;
+    height: 3rem;
+    margin-left: 1rem;
+    transition: all 0.5s;
+    color: black;
+}
+.contenedor-iconoFooter svg:hover{
+    transform: scale(1.05);
+}

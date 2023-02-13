@@ -1,0 +1,26 @@
+/* CSS DE GUIAS */
+.videoGuia{
+    height: 15rem;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    transition: 0.5s;
+}
+.videoGuia:hover{
+    transform: scale(1.05);
+}
+.textoGuias{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.h1Guias{
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+/* formulario */
+.boton{
+    background-color: #588157;
+    margin: 1rem;
+}
