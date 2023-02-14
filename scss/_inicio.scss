@@ -27,7 +27,7 @@
     transition: all 0.5s;
     border-radius: 3px;
     margin: 5px;
-
+    cursor: pointer;
     &:hover {
         transform: scale(1.05);
     }
@@ -52,7 +52,7 @@
     max-height: 10rem;
     border-radius: 3px;
     transition: all 0.5s;
-
+    cursor: pointer;
     &:hover {
         transform: scale(1.05)
     }
@@ -65,7 +65,7 @@
     max-height: 11rem;
     border-radius: 3px;
     transition: all 0.5s;
-
+    cursor: pointer;
     &:hover {
         transform: scale(1.05)
     }
@@ -80,7 +80,7 @@
     max-height: 10rem;
     border-radius: 3px;
     transition: all 0.5s;
-
+    cursor: pointer;
     &:hover {
         transform: scale(1.05)
     }
