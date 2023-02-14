@@ -1,18 +1,40 @@
-@import "header";
-@import "footer";
 @import "inicio";
+@import "guias";
 @import "mediasqueries";
 
+//variables
+$color-base: #588157;
+$color-fondo: #dad7cd;
 
 
-main{
+main {
     overflow: hidden;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Rubik', sans-serif;
-    background-color: #dad7cd;
-    
+    background-color: $color-fondo;
+
 }
 
+header {
+    background: $color-base;
+}
+
+footer {
+    background: $color-base;
+}
+
+/* Iconos del footer */
+.contenedor-iconoFooter svg {
+    width: 2rem;
+    height: 3rem;
+    margin-left: 1rem;
+    transition: all 0.5s;
+    color: black;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}

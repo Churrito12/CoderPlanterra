@@ -1,15 +1,23 @@
 @import "mediasqueries";
 
 
+.contenedor {
+    @include movil {
+        flex-direction: column;
+    }
+
+}
+
 /* Carrousel */
 .carousel img {
     display: inline-block;
     max-height: 32rem;
     max-width: 100%;
-    @include movil{
+
+    @include movil {
         flex-direction: column;
-    
-}
+
+    }
 }
 
 /* Fotos bajo el carrousel */
@@ -18,36 +26,85 @@
     max-height: 30rem;
     transition: all 0.5s;
     border-radius: 3px;
-    margin: 3px;
-    &:hover{
+    margin: 5px;
+
+    &:hover {
         transform: scale(1.05);
     }
-    
+
+    h1 {
+        font-weight: 600;
+    }
+
+    p {
+        text-align: center;
+        margin-left: 1rem;
+    }
 }
 
-h1 {
-    font-weight: 600;
-}
+/* Contenido */
 
-p {
-    text-align: center;
-    margin-left: 1rem;
-}
 
-/* Imagenes de las descripciones */
-.imgInicio {
+.imgMovil {
     margin-top: 5rem;
     margin-bottom: 2rem;
     max-width: 15rem;
     max-height: 10rem;
     border-radius: 3px;
     transition: all 0.5s;
-    &:hover{
+
+    &:hover {
+        transform: scale(1.05)
+    }
+
+}
+.imgTablet{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    max-width: 16rem;
+    max-height: 11rem;
+    border-radius: 3px;
+    transition: all 0.5s;
+
+    &:hover {
         transform: scale(1.05)
     }
     @include movil{
-        flex-direction: column;
+        display: none;
+    }
+}
+.imgEscritorio{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    max-width: 16rem;
+    max-height: 10rem;
+    border-radius: 3px;
+    transition: all 0.5s;
+
+    &:hover {
+        transform: scale(1.05)
+    }
+    @include movil {
+        display: none;
+    }
+    @include tablet{
+        display: none;
+    }
+}
+.contenedorImg img{
+    margin-right: 3rem;
+    margin-left: 1rem;
     
 }
 
+// icono de whatsapp
+.iconoWs{
+    position: fixed;
+    bottom: 1rem;
+    right: 3rem;
+    max-width: 4rem;
+    @include movil{
+        max-width: 3rem;
+        bottom: 2rem;
+    }
 }
