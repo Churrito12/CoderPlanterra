@@ -1,0 +1,40 @@
+@import "mediasqueries";
+
+.contenedor {
+    @include movil {
+        flex-direction: column;
+    }
+
+}
+
+/* Carrousel */
+.carousel img {
+    display: inline-block;
+    max-height: 32rem;
+    max-width: 100%;
+
+    @include movil {
+        flex-direction: column;
+
+    }
+}
+
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fotosCompra {
+    max-width: 100%;
+    max-height: 30rem;
+    transition: all 0.5s;
+    border-radius: 3px;
+    margin: 5px;
+
+    &:hover {
+        transform: scale(1.05);
+        
+    }
+
+    
+}
