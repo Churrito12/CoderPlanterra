@@ -1,6 +1,7 @@
 @import "inicio";
 @import "guias";
 @import "compra";
+@import "nosotros";
 @import "mediasqueries";
 
 //variables
@@ -32,9 +33,10 @@ footer {
     width: 2rem;
     height: 3rem;
     margin-left: 1rem;
-    transition: all 0.5s;
+    transition: all 0.5s; //añadir links
     color: black;
     cursor: pointer;
+
     &:hover {
         transform: scale(1.05);
     }

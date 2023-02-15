@@ -1,5 +1,5 @@
 /* CSS DE GUIAS */
-.videoGuia{
+.videoGuia {
     height: 15rem;
     width: 30rem;
     display: flex;
@@ -7,25 +7,31 @@
     margin: 2rem;
     transition: 0.5s;
 }
-.videoGuia:hover{
+
+.videoGuia:hover {
     transform: scale(1.05);
 }
-.textoGuias{
+
+.textoGuias {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
 }
-.h1Guias{
+
+.h1Guias {
     margin-bottom: 10rem;
     margin-top: 5rem;
 }
+
 /* formulario */
-.boton{
+.boton {
     background-color: #588157;
     margin: 1rem;
 }
-.contenedorG{
-    max-width: 30rem;
-    justify-content: center;
-    margin-left: 38%;
+
+form {
+    position: relative;
+    max-width: 35rem;
+    max-height: 30rem;
+    border-radius: 3px;
 }

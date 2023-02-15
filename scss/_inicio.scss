@@ -28,6 +28,7 @@
     border-radius: 3px;
     margin: 5px;
     cursor: pointer;
+
     &:hover {
         transform: scale(1.05);
     }
@@ -53,12 +54,14 @@
     border-radius: 3px;
     transition: all 0.5s;
     cursor: pointer;
+
     &:hover {
         transform: scale(1.05)
     }
 
 }
-.imgTablet{
+
+.imgTablet {
     margin-top: 5rem;
     margin-bottom: 2rem;
     max-width: 16rem;
@@ -66,14 +69,17 @@
     border-radius: 3px;
     transition: all 0.5s;
     cursor: pointer;
+
     &:hover {
         transform: scale(1.05)
     }
-    @include movil{
+
+    @include movil {
         display: none;
     }
 }
-.imgEscritorio{
+
+.imgEscritorio {
     margin-top: 5rem;
     margin-bottom: 2rem;
     max-width: 16rem;
@@ -81,29 +87,34 @@
     border-radius: 3px;
     transition: all 0.5s;
     cursor: pointer;
+
     &:hover {
         transform: scale(1.05)
     }
+
     @include movil {
         display: none;
     }
-    @include tablet{
+
+    @include tablet {
         display: none;
     }
 }
-.contenedorImg img{
+
+.contenedorImg img {
     margin-right: 3rem;
     margin-left: 1rem;
-    
+
 }
 
 // icono de whatsapp
-.iconoWs{
+.iconoWs {
     position: fixed;
     bottom: 1rem;
     right: 3rem;
-    max-width: 4rem;
-    @include movil{
+    max-width: 4rem; // cambiar a ventana emergente
+
+    @include movil {
         max-width: 3rem;
         bottom: 2rem;
     }
