@@ -19,6 +19,12 @@
     }
 }
 
+h1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
 h2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -29,6 +35,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+
     figure {
         position: relative;
         max-width: 100%;
@@ -67,4 +74,3 @@ h2 {
 
 
 }
-
