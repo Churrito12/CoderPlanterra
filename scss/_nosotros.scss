@@ -1,0 +1,14 @@
+.contenedorNos {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+
+    figure {
+        position: relative;
+        max-width: 35rem;
+        overflow: hidden;
+        border-radius: 3px;
+        margin: 5px;
+        box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.25);
+    }
+}
